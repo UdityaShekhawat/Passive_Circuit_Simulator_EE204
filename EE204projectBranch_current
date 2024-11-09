@@ -169,10 +169,10 @@ circuit = Circuit(num_nodes, reference_node)
 
 components = [
     Component("I1", 1, [1, 0], "AC", 50),  # AC Current source
-    Component("R1", 1, [1, 0]),  # Inductor
-    Component("R1", 1, [2, 0]),  # Inductor
-    Component("V1", 1, [2, 0], "DC"),  # Inductor
-    Component("R1", 1, [2, 1]),  # Inductor
+    Component("R1", 1, [1, 0]), 
+    Component("R1", 1, [2, 0]),  
+    Component("V1", 1, [2, 0], "DC"), 
+    Component("R1", 1, [2, 1]),  
 ]
 
 for comp in components:
