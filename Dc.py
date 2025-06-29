@@ -342,4 +342,3 @@ def simulate_rlc_circuit():
 
 if __name__ == "__main__":
     simulate_rlc_circuit()
-
