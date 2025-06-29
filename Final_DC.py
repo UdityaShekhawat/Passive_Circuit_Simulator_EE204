@@ -16,7 +16,7 @@ class Circuit:
         self.capacitors = []
         self.inductors = []
         self.voltage_sources = []
-        self.current_sources = []  # Add current sources
+        self.current_sources = []  #Add current sources
         self.num_nodes = 0
         self.max_time = 10
         self.dt = self.max_time / 10000
